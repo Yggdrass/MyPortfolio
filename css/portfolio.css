@@ -1,0 +1,134 @@
+main {
+    margin-top: 5rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    max-width: 50rem;
+    background-color: var(--gray_opacity);
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 0 20rem;
+}
+
+.section_title {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0 0 10rem 20rem;
+}
+
+#card_brief {
+    font-size: 2rem;
+    max-width: 65ch;
+    background-color: var(--main_transparent);
+    padding: 2rem;
+}
+
+#card_image {
+    max-width: 50rem;
+    border-bottom: 5px solid var(--card_transparent);
+    margin-bottom: 2rem;
+}
+
+#card_image2 {
+    max-width: 30rem;
+}
+
+
+#card_title {
+    background-color: var(--card_transparent);
+    padding: 1rem;
+}
+
+
+#githubFilesLogo {
+    font-size: 10rem;
+    padding-top: 3rem;
+}
+
+#logo_gamehub {
+    border: 3px solid var(--card_transparent);
+    padding: 0.5rem;
+  }
+
+
+#logo_title {
+    max-width: 12rem;
+    padding-left: 6rem;
+}
+
+
+#projectBrief {
+    font-size: 2rem;
+    max-width: 50ch;
+    line-height: 3rem;
+}
+
+#projectLogoLink {
+    display: flex;
+    align-items: center;
+}
+
+#projectLogoLinkText {
+    background-color: var(--card_transparent);
+    color: var(--black);
+    padding: 0.5rem;
+}
+
+#project_title {
+    font-weight: bold;
+    padding: 2rem 0 2rem 3rem;
+}
+
+
+@media (max-width: 400px) {
+    body {
+        margin: 0 auto;
+    }
+    
+    h1 {
+        font-size: 4.5rem;
+ }   
+
+    .section_title {
+        padding: 1rem;
+    }
+
+    #project_title {
+        align-items: center;
+        font-size: 4rem;
+        max-width: 15ch;
+    }
+
+    #project_brief {
+        max-width: 20ch;
+    }
+
+    #projectLogoLink {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .card {
+        flex-direction: column;
+        max-width: 26rem;
+        background-color: var(--gray_opacity);
+    }
+
+    #card_image {
+        max-width: 20rem;
+        border-bottom: 5px solid var(--card_transparent);
+        margin-bottom: 2rem;
+    }
+
+    .section {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,61 @@
+button {
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 1rem auto auto auto;
+    text-transform: uppercase;
+}
+
+input {
+    font-size: 3rem;
+    max-width: 25ch;
+    padding: 2rem;
+}
+
+label, #labelTitle {
+    font-size: 3.5rem;
+    font-family: arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.hire_me {
+    margin: 0;
+}
+
+#contact {
+    background-color: var(--main_transparent);
+    border-top: 5px solid var(--white);
+    padding: 3rem 0 3rem 0;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.form-error {
+    display: none;
+    background-color: red;
+    color: var(--white);
+    max-width: 35ch;
+    margin: 1rem auto;
+    padding: 0.5rem;
+}
+
+#formSubtitle {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+#profile_image {
+    max-width: 70rem;
+    padding-left: 10rem;
+}
+
+p#labelTitle {
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+}
